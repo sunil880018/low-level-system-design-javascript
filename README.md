@@ -2,13 +2,12 @@
 
 ### STEP-1 install the babel:
 
-####npm install --save-dev @babel/core @babel/cli @babel/node @babel/preset-env
+#### npm install --save-dev @babel/core @babel/cli @babel/node @babel/preset-env
 
 
 ### STEP-2 set below code in package.json
 
-####
-{
+#### {
     "scripts": {
         "start": "babel-node Main.js"
     },
@@ -22,7 +21,7 @@
 
 ### STEP-3 make file .babelrc and paste below snippet
 
-####{
+#### {
     "presets": ["@babel/preset-env"]
 }
 
