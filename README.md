@@ -1,13 +1,13 @@
 # low-level-system-design-javascript
 
-STEP-1 install the babel:
+### STEP-1 install the babel:
 
-npm install --save-dev @babel/core @babel/cli @babel/node @babel/preset-env
-
-
-STEP-2 set below code in package.json
+####npm install --save-dev @babel/core @babel/cli @babel/node @babel/preset-env
 
 
+### STEP-2 set below code in package.json
+
+####
 {
     "scripts": {
         "start": "babel-node Main.js"
@@ -20,16 +20,16 @@ STEP-2 set below code in package.json
     }
 }
 
-STEP-3 make file .babelrc and paste below snippet
+### STEP-3 make file .babelrc and paste below snippet
 
-{
+####{
     "presets": ["@babel/preset-env"]
 }
 
 
-STEP-4 run the project
+### STEP-4 run the project
 
-npm install
+#### npm install
 
 
-npm run start
+#### npm run start
